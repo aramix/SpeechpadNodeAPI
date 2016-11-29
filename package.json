@@ -10,6 +10,10 @@
     "speechpad",
     "apilite"
   ],
+  "repository": {
+    "type": "git",
+    "url": "\"https://github.com/aramix/SpeechpadNodeAPI\""
+  },
   "author": "Aram Bayadyan",
   "license": "ISC",
   "dependencies": {
