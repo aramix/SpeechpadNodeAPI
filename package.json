@@ -1,0 +1,22 @@
+{
+  "name": "speechpad",
+  "version": "1.0.0",
+  "description": "APILite for Node",
+  "main": "bootstrap.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "speechpad",
+    "apilite"
+  ],
+  "author": "Aram Bayadyan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.15.2",
+    "colors": "^1.1.2",
+    "config": "^1.24.0",
+    "lodash": "^4.17.2",
+    "sort-object": "^3.0.2"
+  }
+}

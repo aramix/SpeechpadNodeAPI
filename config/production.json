@@ -1,0 +1,5 @@
+{
+  "rest_uri": "https://www.speechpad.com/services",
+  "access_key": "production_test_key",
+  "secret_key": "production_test_secret"
+}
