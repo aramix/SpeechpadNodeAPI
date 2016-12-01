@@ -24,8 +24,8 @@ $ vi config/default.json
 ```json
 {
   "rest_uri": "http://dev.speechpad.com/services",
-  "access_key": "sandbox_test_key",
-  "secret_key": "sandbox_test_secret"
+  "access_key": "sandbox_key",
+  "secret_key": "sandbox_secret"
 }
 ```
 
@@ -38,8 +38,8 @@ $ vi config/default.json
 ```json
 {
   "rest_uri": "https://www.speechpad.com/services",
-  "access_key": "production_test_key",
-  "secret_key": "production_test_secret"
+  "access_key": "production_key",
+  "secret_key": "production_secret"
 }
 ```
 

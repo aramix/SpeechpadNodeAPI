@@ -1,5 +1,5 @@
 {
   "rest_uri": "http://dev.speechpad.com/services",
-  "access_key": "sandbox_test_key",
-  "secret_key": "sandbox_test_secret"
+  "access_key": "sandbox_key",
+  "secret_key": "sandbox_secret"
 }
