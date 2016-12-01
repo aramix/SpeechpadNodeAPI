@@ -1,6 +1,6 @@
 {
   "name": "speechpad",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "APILite for Node",
   "main": "bootstrap.js",
   "scripts": {
