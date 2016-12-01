@@ -5,9 +5,11 @@ NodeJS port of https://github.com/Speechpad/APILite wrapping the Speechpad API f
 
 ## Installation
 
-	npm install speechpad
+npm install speechpad
 
+```shell
 ## Config
+```
 
 ### Creating configuration files for development and production
 
