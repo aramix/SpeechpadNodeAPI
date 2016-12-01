@@ -13,7 +13,8 @@ npm install speechpad
 
 ### Creating configuration files for development and production
 
-This package depends on the config package for configuration
+This package depends on the config package for configuration.
+
 To create a basic configuration do the following
 ```shell
 $ npm install config
