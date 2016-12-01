@@ -7,17 +7,45 @@ NodeJS port of https://github.com/Speechpad/APILite wrapping the Speechpad API f
 
 	npm install speechpad
 
+## Config
+
+### Creating configuration files for development and production
+
+	This package depends on another package for configuration called `config`
+	To create a basic configuration do the following
+	```shell
+	$ npm install config
+	$ mkdir config
+	$ vi config/default.json
+	```
+	```js
+	{
+	  "rest_uri": "http://dev.speechpad.com/services",
+	  "access_key": "sandbox_test_key",
+	  "secret_key": "sandbox_test_secret"
+	}
+	```
+
+	**Edit config overrides for production deployment:**
+
+	```shell
+	 $ vi config/production.json
+	```
+
+	```json
+	{
+	  "rest_uri": "https://www.speechpad.com/services",
+	  "access_key": "production_test_key",
+	  "secret_key": "production_test_secret"
+	}
+	```
+
 ## Usage Examples
 
 ### Instantiating the class
 
-	const SpeechpadAPI = require('../bootstrap');
-	APILite = new Speechpad.APILite(accessKey, secretKey, restURI);
-
-	// Make a generic call (all parameters required for the call in params)
-	APILite.call(params).then((res) => {
-	  console.log(res.data);
-	});
+	const APILite = require('speechpad');
+	// no further configuration is needed
 
 ### Making a test call
 
@@ -38,7 +66,7 @@ NodeJS port of https://github.com/Speechpad/APILite wrapping the Speechpad API f
 
 ## Using the Pre-made Example Scripts
 
-There are a handful of example scripts provided to illustrate some basic usage of the Speechpad API.
+There are a handful of example scripts inside the package directory (`node_modules/speechpad/examples`) provided to illustrate some basic usage of the Speechpad API.
 
 All examples below assume:
 
