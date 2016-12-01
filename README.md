@@ -17,7 +17,6 @@ This package depends on the config package for configuration.
 
 To create a basic configuration do the following
 ```shell
-$ npm install config
 $ mkdir config
 $ vi config/default.json
 ```
