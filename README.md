@@ -11,34 +11,34 @@ NodeJS port of https://github.com/Speechpad/APILite wrapping the Speechpad API f
 
 ### Creating configuration files for development and production
 
-	This package depends on another package for configuration called `config`
-	To create a basic configuration do the following
-	```shell
-	$ npm install config
-	$ mkdir config
-	$ vi config/default.json
-	```
-	```js
-	{
-	  "rest_uri": "http://dev.speechpad.com/services",
-	  "access_key": "sandbox_test_key",
-	  "secret_key": "sandbox_test_secret"
-	}
-	```
+This package depends on the config package for configuration
+To create a basic configuration do the following
+```shell
+$ npm install config
+$ mkdir config
+$ vi config/default.json
+```
+```js
+{
+  "rest_uri": "http://dev.speechpad.com/services",
+  "access_key": "sandbox_test_key",
+  "secret_key": "sandbox_test_secret"
+}
+```
 
-	**Edit config overrides for production deployment:**
+**Edit config overrides for production deployment:**
 
-	```shell
-	 $ vi config/production.json
-	```
+```shell
+ $ vi config/production.json
+```
 
-	```json
-	{
-	  "rest_uri": "https://www.speechpad.com/services",
-	  "access_key": "production_test_key",
-	  "secret_key": "production_test_secret"
-	}
-	```
+```json
+{
+  "rest_uri": "https://www.speechpad.com/services",
+  "access_key": "production_test_key",
+  "secret_key": "production_test_secret"
+}
+```
 
 ## Usage Examples
 
