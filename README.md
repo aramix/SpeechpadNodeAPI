@@ -20,7 +20,8 @@ To create a basic configuration do the following
 $ mkdir config
 $ vi config/default.json
 ```
-```js
+
+```json
 {
   "rest_uri": "http://dev.speechpad.com/services",
   "access_key": "sandbox_test_key",
