@@ -12,9 +12,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "\"https://github.com/aramix/SpeechpadNodeAPI\""
+    "url": "git+https://github.com/aramix/SpeechpadNodeAPI.git"
   },
-  "author": "Aram Bayadyan",
+  "bugs": {
+    "url": "https://github.com/aramix/SpeechpadNodeAPI/issues"
+  },
+  "homepage": "https://github.com/aramix/SpeechpadNodeAPI#readme",
+  "private": false,
+  "author": "Aram Bayadyan <aram.bv@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.15.2",
